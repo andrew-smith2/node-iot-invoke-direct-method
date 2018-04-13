@@ -2,9 +2,9 @@
 
 var Client = require('azure-iothub').Client;
 
-var connectionString = 'HostName=AndrewTestHub.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=56LhSZUhlbC+dxfMj3bYIspEHF3MhFCTvXakn/dWJIs=';
+var connectionString = '{enter IOT HUB host name}';
 var methodName = 'getTemperature';
-var deviceId = 'test123';
+var deviceId = '{DeviceID}';
 
 var client = Client.fromConnectionString(connectionString);
 
@@ -19,8 +19,7 @@ var averageTemperature = 0;
 
 
 for(var i = 0; i < 20; i++) {
-	getTempFromDevice()
-	
+	getTempFromDevice();
 }
 
 
