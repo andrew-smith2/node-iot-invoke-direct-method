@@ -7,3 +7,11 @@ Simple node IOT device client
 <li>Writes out average temp in the array on each interation</li>
 </ul>
 
+
+Instructions
+1. Ensure client application is installed and started that is located in the https://github.com/spock75/Node-Iot-Client.git repository
+2. Ensure you have node and npm installed on your machine
+3. Download and unpack zipped file of application or clone respository 
+4. Open terminal window to the location where the project files are located
+5. Type "npm install"
+6. After all packages are installed type "node CallMethodOnDevice.js"
