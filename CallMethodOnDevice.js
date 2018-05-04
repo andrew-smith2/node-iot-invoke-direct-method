@@ -17,7 +17,7 @@ var methodParams = {
 var temperatureResults = [];
 var averageTemperature = 0;
 
-
+//cal method on device x number of times
 for(var i = 0; i < 20; i++) {
 	getTempFromDevice();
 }
