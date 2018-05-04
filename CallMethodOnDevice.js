@@ -23,7 +23,7 @@ for(var i = 0; i < 20; i++) {
 }
 
 
-
+// Function to call direct method on device connected to IOT hub
 function getTempFromDevice(){
 	client.invokeDeviceMethod(deviceId, methodParams, function (err, result) {
 
