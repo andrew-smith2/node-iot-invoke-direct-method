@@ -15,4 +15,4 @@ Instructions
 4. Open terminal window to the location where the project files are located
 5. Type "npm install"
 6. Edit the CallMethodOnDevice.js and update the connection string to the IoT Hub and Device ID with the provided connection string/DeviceID in Hackathon instructions
-7. After all packages are installed type "node CallMethodOnDevice.js"
+7. After all packages are installed type "node CallMethodOnDevice.js" to run application
