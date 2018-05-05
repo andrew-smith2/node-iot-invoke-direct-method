@@ -9,8 +9,8 @@ var deviceId = '{DeviceID}';
 var client = Client.fromConnectionString(connectionString);
 
 var methodParams = {
-    methodName: methodName,
-    timeoutInSeconds: 30
+	methodName: methodName,
+	timeoutInSeconds: 30
 };
 
 
@@ -18,13 +18,13 @@ var temperatureResults = [];
 var averageTemperature = 0;
 
 //cal method on device x number of times
-for(var i = 0; i < 20; i++) {
+for (var i = 0; i < 20; i++) {
 	getTempFromDevice();
 }
 
 
 // Function to call direct method on device connected to IOT hub
-function getTempFromDevice(){
+function getTempFromDevice() {
 	client.invokeDeviceMethod(deviceId, methodParams, function (err, result) {
 
 		if (err) {
@@ -35,13 +35,13 @@ function getTempFromDevice(){
 			var temperature = JSON.parse(data.payload).temperature;
 			console.log(temperature);
 			temperatureResults.push(temperature);
-			
+
 			var sum = 0;
-			for( var i = 0; i < temperatureResults.length; i++ ){
-				sum += temperatureResults[i]; 
+			for (var i = 0; i < temperatureResults.length; i++) {
+				sum += temperatureResults[i];
 			}
 
-			var averageTemperature = sum/temperatureResults.length;
+			var averageTemperature = sum / temperatureResults.length;
 			console.log(averageTemperature);
 			console.log(temperatureResults);
 		}
