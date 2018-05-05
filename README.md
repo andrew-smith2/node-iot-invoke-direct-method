@@ -2,9 +2,9 @@
 Simple node IOT device client
 <br>
 <ul>
-<li>Sets up a calling application that registers application with the IOT hub and makees direct method call to a device</li>
-<li>Takes returned payload which contains a temperature value and adds to an array.</li>
-<li>Writes out average temp in the array on each interation</li>
+<li>Sets up a calling application that registers with the Azure IoT hub and makees direct method call to a method called getTempFromDevice()</li>
+<li>Takes returned payload from device method which contains a temperature value then adds this value to an array.</li>
+<li>Writes out average temperature from the array on each interation</li>
 </ul>
 
 
