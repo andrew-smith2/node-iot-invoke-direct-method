@@ -11,7 +11,7 @@ Simple node IOT device client
 Instructions
 1. Ensure you have node and npm installed on your machine  https://nodejs.org/en/ (When you install node you will get both node and npm)
 2. Ensure client application is installed and started that is located in the https://github.com/spock75/Node-Iot-Client.git repository
-3. Download and unpack zipped file of application or clone respository 
+3. Download and unpack zipped file of application or clone respositoryusing git clone
 4. Open terminal window to the location where the project files are located
 5. Type "npm install"
 6. Edit the CallMethodOnDevice.js and update the connection string to the IoT Hub and Device ID with the provided connection string/DeviceID in Hackathon instructions
