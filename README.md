@@ -1,4 +1,4 @@
-# Node-iot-device-caller
+# Node-iot-invoke-direct-method
 Simple node IOT device client
 <br>
 <ul>
