@@ -8,7 +8,7 @@ Simple node IOT device client
 </ul>
 
 
-Instructions
+Instructions  (You can either work on your laptop and build the solution then deploy to you Raspberry PI or you can develop on the Rapberry PI. The PI will contain NodeJs and NPM)
 1. Ensure you have node and npm installed on your machine  https://nodejs.org/en/ (When you install node you will get both node and npm)
 2. Ensure client application is installed and started that is located in the https://github.com/spock75/Node-Iot-Client.git repository
 3. Download and unpack zipped file of application or clone respositoryusing git clone
