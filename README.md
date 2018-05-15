@@ -13,6 +13,6 @@ Instructions  (You can either work on your laptop and build the solution then de
 2. Ensure client application is installed and started that is located in the https://github.com/spock75/node-iot-client-dm.git repository
 3. Download and unpack zipped file of application or clone respositoryusing git clone
 4. Open terminal window to the location where the project files are located
-5. Type "npm install"
+5. Type <code>npm install</code>
 6. Edit the CallMethodOnDevice.js and update the connection string to the IoT Hub and Device ID with the provided connection string/DeviceID in Hackathon instructions
-7. After all packages are installed type "node CallMethodOnDevice.js" to run application
+7. After all packages are installed type <code>node CallMethodOnDevice.js</code> to run application
